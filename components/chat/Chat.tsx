@@ -11,10 +11,10 @@ import TypingIndicator from "./TypingIndicator";
 import type { ChatMessage } from "./types";
 
 const SUGGESTIONS = [
-  "Can we get a 20% discount on the annual plan?",
-  "What's the best price for a 12-month contract?",
-  "Can you match a competitor's offer?",
-  "What flexibility is there on payment terms?",
+  "What is metformin used for?",
+  "What are common side effects of amoxicillin?",
+  "How should I store insulin?",
+  "What should I know about drug interactions with warfarin?",
 ];
 
 function messagesKey(threadId: string) {
@@ -148,11 +148,10 @@ export default function Chat() {
               />
               <div>
                 <h2 className="text-base font-semibold text-slate-800 dark:text-slate-100">
-                  Let&apos;s negotiate a great deal
+                  How can I help you today?
                 </h2>
                 <p className="mt-1 max-w-sm text-sm text-slate-500 dark:text-slate-400">
-                  Ask about pricing, discounts, contract terms, or anything else you&apos;d like
-                  to work out.
+                  Ask about medications, dosing, side effects, or general pharmacy questions.
                 </p>
               </div>
               <div className="grid w-full max-w-md grid-cols-1 gap-2 sm:grid-cols-2">

@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Uzair Rph Assistant | Client Negotiation Agent",
+  title: "Uzair Rph Assistant | AI Pharmacist Assistant",
   description:
-    "Chat with Uzair Rph Assistant to negotiate pricing, discounts, and contract terms in real time.",
+    "Chat with Uzair Rph Assistant for pharmacy support, medication information, and clinical guidance.",
 };
 
 export default function RootLayout({

@@ -29,7 +29,7 @@ export async function sendMessage(
     });
   } catch {
     throw new ChatApiError(
-      "Couldn't reach the negotiation agent. Check that the backend server is running."
+      "Couldn't reach the pharmacy assistant. Check that the backend server is running."
     );
   }
 
